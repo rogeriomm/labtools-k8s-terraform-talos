@@ -3,8 +3,8 @@
 terraform {
   required_providers {
     proxmox = {
-      source  = "Telmate/proxmox"
-      version = "~> 2.9.14"
+      source  = "terraform.local/local/frostyfab"
+      version = "~> 2.9"
     }
     talos = {
       source  = "siderolabs/talos"

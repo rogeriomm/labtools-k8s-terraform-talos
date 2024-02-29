@@ -14,7 +14,7 @@ source "proxmox" "talos" {
   node                     = var.proxmox_nodename
   insecure_skip_tls_verify = true
 
-  iso_file    = "local:iso/archlinux-2023.04.01-x86_64.iso"
+  iso_file    = "local:iso/archlinux-2023.12.01-x86_64.iso"
   unmount_iso = true
 
   scsi_controller = "virtio-scsi-pci"
@@ -40,7 +40,7 @@ source "proxmox" "talos" {
   template_name        = "talos"
   template_description = "Talos system disk"
 
-  boot_wait = "25s"
+  boot_wait = "80s"
   boot_command = [
     "<enter><wait1m>",
     "passwd<enter><wait>packer<enter><wait>packer<enter>",
@@ -75,3 +75,4 @@ build {
     ]
   }
 }
+
