@@ -225,11 +225,11 @@ cluster:
   externalCloudProvider:
     enabled: true
     manifests:
-    - https://raw.githubusercontent.com/kubebn/talos-proxmox-kaas/main/manifests/talos/coredns-local.yaml
-    - https://raw.githubusercontent.com/kubebn/talos-proxmox-kaas/main/manifests/talos/metallb-native.yaml
-    - https://raw.githubusercontent.com/kubebn/talos-proxmox-kaas/main/manifests/talos/metrics-server.yaml
-    - https://raw.githubusercontent.com/kubebn/talos-proxmox-kaas/main/manifests/talos/fluxcd.yaml
-    - https://raw.githubusercontent.com/kubebn/talos-proxmox-kaas/main/manifests/talos/fluxcd-install.yaml
+    - https://raw.githubusercontent.com/rogeriomm/labtools-k8s-terraform-talos/custom/manifests/talos/coredns-local.yaml
+    - https://raw.githubusercontent.com/rogeriomm/labtools-k8s-terraform-talos/custom/manifests/talos/metallb-native.yaml
+    - https://raw.githubusercontent.com/rogeriomm/labtools-k8s-terraform-talos/custom/manifests/talos/metrics-server.yaml
+    - https://raw.githubusercontent.com/rogeriomm/labtools-k8s-terraform-talos/custom/manifests/talos/fluxcd.yaml
+    - https://raw.githubusercontent.com/rogeriomm/labtools-k8s-terraform-talos/custom/manifests/talos/fluxcd-install.yaml
     - https://raw.githubusercontent.com/sergelogvinov/terraform-talos/main/_deployments/vars/talos-cloud-controller-manager-result.yaml
     - https://raw.githubusercontent.com/sergelogvinov/proxmox-cloud-controller-manager/main/docs/deploy/cloud-controller-manager-talos.yml
     - https://raw.githubusercontent.com/prometheus-operator/prometheus-operator/v0.64.1/example/prometheus-operator-crd/monitoring.coreos.com_alertmanagerconfigs.yaml
