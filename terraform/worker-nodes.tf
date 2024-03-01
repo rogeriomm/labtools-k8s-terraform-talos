@@ -15,7 +15,7 @@ resource "proxmox_vm_qemu" "workers" {
   cpu     = "host,flags=+aes"
   sockets = 1
   cores   = 4
-  memory  = 8048
+  memory  = 20000 
   scsihw  = "virtio-scsi-pci"
 
   vga {
