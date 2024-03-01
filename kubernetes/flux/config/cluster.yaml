@@ -7,9 +7,9 @@ metadata:
   namespace: flux-system
 spec:
   interval: 30m
-  url: https://github.com/kubebn/talos-proxmox-kaas.git 
+  url: https://github.com/rogeriomm/labtools-k8s-terraform-talos.git
   ref:
-    branch: main
+    branch: custom2 
   secretRef:
     name: github-creds
   ignore: |
